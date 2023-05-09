@@ -1,0 +1,72 @@
+/*::Boton2.css:::*/
+/*:::Boton-Modal:::*/
+.boton-PLAY{
+    padding: 40px;
+    text-align: center;
+
+}
+.boton-PLAY label{
+    padding: 10px 15px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+
+
+}
+.boton-PLAY label:hover{
+    background-color: #185E83;
+}
+
+#btn-PLAY{
+    display: none;
+
+}
+.container-PLAY{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-image: url("imagenes/loading2.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+#btn-PLAY:checked ~ .container-PLAY {
+    display: flex;
+}
+
+
+.content-PLAY .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-PLAY.btn-cerrar label{
+    padding: 7px 10px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    bottom: auto;
+}
+.content-PLAY .btn-cerrar label:hover{
+    background-color:#185E83;
+}
+.cerrar-PLAY{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+
+/*:::Fin Ventana Modal:::*/
