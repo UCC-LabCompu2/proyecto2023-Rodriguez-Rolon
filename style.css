@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+@font-palette-values --pac {
+    font-family: Rocher;
+    base-palette: 8;
+}
+@font-palette-values --win {
+    font-family: Rocher;
+    base-palette: 2;
+}
+@font-palette-values --lose {
+    font-family: Rocher;
+    base-palette: 3;
+}
+
+body{
+    background-color: black
+}
+
+.bg{
+    background-image: url('img/bg-space.gif');
+}
+
+.wrapper1{
+    display: inline-flex;
+
+}
+
+.wrapper0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items:center;
+    text-align: center;
+}
+
+.scoreDiv{
+    width: +400px;
+    text-align: center;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p span{
+    color: #fff;
+    font-family: Phantomsans, sans-serif;
+    font-size: 1.5rem
+}
+
+h1{
+    font-family: Rocher;
+    font-palette: --pac;
+    will-change: filter;
+    transition: filter 100ms;
+}
+
+h1:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 1em #f7df1eaa);
+}
+
+.hide{
+    transform: scale(0);
+}
+
+.canvas{
+    flex: auto;
+}
+
+.message {
+    font-family: 'Rocher';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    color: white;
+}
+
+
+.button-64 {
+    align-items: center;
+    margin-top: 10px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -ms-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.primary{
+    color: #fff;
+    font-family: Phantomsans, sans-serif;
+    font-size: 1.5rem
+
+}
+
+.secondary{
+    color: pink;
+    font-family: Phantomsans, sans-serif;
+    font-size: 1rem
+
+}
+
