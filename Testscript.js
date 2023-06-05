@@ -3,7 +3,7 @@
 
 const question = document.querySelector(".question");
 const answers = document.querySelector(".answers");
-const spnQtd = document.querySelector(".contadorpreguntas");
+const contadorpreguntas = document.querySelector(".contadorpreguntas");
 const textFinish = document.querySelector(".finish span");
 const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
@@ -58,7 +58,7 @@ function finish() {
 // data-correct a cada botón según si es la respuesta correcta o no. Agregamos los botones al elemento answers. Finalmente,
 // asignamos un evento de clic a cada botón para llamar a la función nextQuestion() cuando se haga clic en ellos.
 function loadQuestion() {
-    spnQtd.innerHTML = `${currentIndex + 1}/${questions.length}`;
+    contadorpreguntas.innerHTML = `${currentIndex + 1}/${questions.length}`;
     const item = questions[currentIndex];
     answers.innerHTML = "";
     question.innerHTML = item.question;
