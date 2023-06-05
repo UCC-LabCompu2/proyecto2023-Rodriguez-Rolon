@@ -1,7 +1,7 @@
 # proyecto2023-Rodriguez-Rolon
 Titulo "Pacman"
 Autores: Rodriguez Virginia, Rolon Luana.
-A traves de html, css y javascript desarrollaremos este juego en el cual se debera de conseguir un cierto puntaje "score" para conseguir la victoria.
-Utilizamos fuentes externas como google images y diferentes estilos.
+A traves de html, css y javascript desarrollaremos esta Web donde presentaremos el tan legendario juego "Pacman", conectando a su historia y a una gama de diferentes versiones a las que puedes jugar.
+Realiza nuestro test para comprobar cuanto sabes de Pacman.
 
-LINK AL JUEGO: https://ucc-labcompu2.github.io/proyecto2023-Rodriguez-Rolon/
+Welcome to Pacman: https://ucc-labcompu2.github.io/proyecto2023-Rodriguez-Rolon/
