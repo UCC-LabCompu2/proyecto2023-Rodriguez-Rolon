@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <script src="canvascript.js"></script>
+    <title>Test</title>
+
+    <link rel="stylesheet" href="TestStyle.css">
+</head>
+
+<!--Canva y animacion-->
+<body onload="setInterval(animarPacman, 50)">
+<div class="divCanvas">
+    <canvas id="myCanvas" class="canvas" height="500" width="1500">
+    </canvas>
+</div>
+
+//Box de preguntas y respuestas
+<h2>TEST</h2>
+<main>
+    <div class="content">
+        <span class="contadorpreguntas"></span>
+        <span class="question"></span>
+        <div class="answers"></div>
+    </div>
+    <div class="finish">
+        <span></span>
+        <button>Reiniciar</button>
+    </div>
+</main>
+
+<!--Boton volver-->
+<div>
+    <button title="Volver" class="volver">
+        <a href="carga.html">
+            <h1>Volver</h1>
+        </a>
+    </button>
+
+    <script src="Testscript.js" type="module"></script>
+</div>
+</body>
+</html>

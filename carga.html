@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="imagenes/icono_title.png" type="image/x-icon">
+    <link rel="stylesheet" href="./carga.css">
+    <meta charset="UTF-8">
+    <meta content="Rolon-Rodriguez" name="author">
+    <meta content="html de juego y  test" name="description">
+    <meta content="html, imagenes, listas, carrusel.." name="keywords">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+
+
+    <title>PACMAN</title>
+</head>
+<body>
+<header>
+    <div class="div1"> <!--Parte de arriba-->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/favicon.png" alt="logo pacman" class="imgLogo" title="PACMAN">
+            </a>
+            <h1 style="display: inline-block; vertical-align: 30%"> WELCOME TO THE ADVENTURE! </h1>
+        </div>
+        <div class="menu" id="mostrarMenu">
+            <nav>
+                <ul>
+                    <li><a href="Test.html">
+                        <i class="test"></i>Test</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <div> <!--Parte central-->
+        <p class="titulo" id="playing">Selecciona tu juego</p>
+    </div>
+    <br/>
+
+    //Galeria con las fotos y links de juegos
+    <div>
+        <marquee behavior="alternate" scrolldelay="0" scrollamount="4" direction="right" loop="infinite"
+                 onmouseout="this.start()" onmouseover="this.stop()">
+            <a href="https://www.1001juegos.com/juego/pacman-fps" target="_self">
+                <div class="divisionImagen">
+                    <figure>
+                        <img title="Opcion 1" alt="opcion 1: Pacmanfps" src="img/PacmanFps.jpg" class="imagen"/>
+                        <div class="divisionTexto">
+                            <h3 class="nombreJuego">Pacman Fps</h3>
+                        </div>
+                    </figure>
+                </div>
+            </a>
+            <a href="https://www.1001juegos.com/juego/tapman" target="_self">
+                <div class="divisionImagen">
+                    <figure>
+                        <img title="Opcion 2: Tapman" alt="opcion 2: Tapman" src="img/Tapman.jpg"
+                             class="imagen"/>
+                        <div class="divisionTexto">
+                            <h3 class="nombreJuego">Tapman</h3>
+                        </div>
+                    </figure>
+                </div>
+            </a>
+            <a href="https://www.1001juegos.com/juego/google-pacman" target="_self">
+                <div class="divisionImagen">
+                    <figure>
+                        <img title="Opcion 3: GooglePacman" alt="opcion 3: GooglePacman" src="img/googlepacman.jpg"
+                             class="imagen"/>
+                        <div class="divisionTexto">
+                            <h3 class="nombreJuego">Google Pacman</h3>
+                        </div>
+                    </figure>
+                </div>
+            </a>
+            <a href="https://www.1001juegos.com/juego/pac-xon" target="_self">
+                <div class="divisionImagen">
+                    <figure>
+                        <img title="Opcion 4: Pacxon" alt="opcion 4: Pacxon" src="img/pacxon.jpg"
+                             class="imagen"/>
+                        <div class="divisionTexto">
+                            <h3 class="nombreJuego">Pacxon</h3>
+                        </div>
+                    </figure>
+                </div>
+            </a>
+
+        </marquee>
+        <hr class="lineaPunteada"/>
+        <br/>
+    </div>
+
+</main>
+
+<!--Boton volver-->
+<div>
+    <button title="Volver" class="volver">
+        <a href="index.html">
+            <h1>Volver</h1>
+        </a>
+    </button>
+    <hr class="lineaPunteada"/>
+</div>
+
+<!--Creditos-->
+<footer>
+    <div class="footer">
+        <h3>Contacto:</h3>
+        <ul>
+            <li><span> Virginia Rodriguez</span></li>
+            <li><span> Luana Rolon</span></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>
